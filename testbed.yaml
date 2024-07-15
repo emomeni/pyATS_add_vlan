@@ -1,0 +1,15 @@
+# testbed.yaml
+testbed:
+  name: example_testbed
+  devices:
+    switch:
+      os: ios
+      type: switch
+      connections:
+        cli:
+          protocol: ssh
+          ip: 192.168.1.1
+      credentials:
+        default:
+          username: your_username
+          password: your_password
