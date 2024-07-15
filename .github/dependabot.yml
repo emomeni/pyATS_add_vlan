@@ -1,0 +1,10 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/" # Location of package.json
+    schedule:
+      interval: "daily" # Options are "daily", "weekly", "monthly"
+  - package-ecosystem: "maven"
+    directory: "/" # Location of pom.xml
+    schedule:
+      interval: "weekly"
