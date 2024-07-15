@@ -77,7 +77,7 @@ This script will:
 3. Verify that the VLAN has been successfully added.
 4. Disconnect from the device.
 
-### Script Phases
+## Script Phases
 * Setup Phase: Connects to the device using the details provided in the testbed file.
 * Test Phase: Adds the specified VLAN to the trunk interface and verifies the configuration.
 * Cleanup Phase: Disconnects from the device.
