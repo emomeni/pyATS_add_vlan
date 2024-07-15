@@ -74,3 +74,15 @@ This script will:
 2. Add the specified VLAN to the trunk interface.
 3. Verify that the VLAN has been successfully added.
 4. Disconnect from the device.
+
+### Script Phases
+1- Setup Phase: Connects to the device using the details provided in the testbed file.
+2- Test Phase: Adds the specified VLAN to the trunk interface and verifies the configuration.
+3- Cleanup Phase: Disconnects from the device.
+
+## Notes
+1- Ensure you have the necessary permissions to modify the VLAN configurations on the network device.
+2- Test the script in a controlled environment before deploying it to production.
+
+## License
+This project is licensed under the MIT License.
