@@ -60,6 +60,11 @@ Before running the script, ensure you have the following:
     interface_name = 'GigabitEthernet0/1'
     ```
 
+## Run the Test Script
+    ```python
+python test_add_vlan.py --testbed testbed.yaml
+    ```
+    
 ## Usage
 To run the test script, execute the following command:
 
@@ -69,7 +74,6 @@ python test_add_vlan.py --testbed testbed.yaml
 
 ## Script Details
 This script will:
-
 1. Connect to the network device defined in the testbed.
 2. Add the specified VLAN to the trunk interface.
 3. Verify that the VLAN has been successfully added.
