@@ -65,3 +65,12 @@ To run the test script, execute the following command:
 
 ```bash
 python test_add_vlan.py --testbed testbed.yaml
+ ```
+
+## Script Details
+This script will:
+
+1. Connect to the network device defined in the testbed.
+2. Add the specified VLAN to the trunk interface.
+3. Verify that the VLAN has been successfully added.
+4. Disconnect from the device.
