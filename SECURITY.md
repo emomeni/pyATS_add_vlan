@@ -1,7 +1,7 @@
 # Security Policy for PyATS VLAN Trunk Interface Test Script
 
 ## Purpose
-This security policy outlines the measures and best practices to ensure the safe and secure execution of the PyATS script for adding a VLAN to a trunk interface on NX-OS switches. Adhering to this policy will help prevent unauthorized access and modifications, protect sensitive information, and ensure the integrity and availability of network devices.
+This security policy outlines the measures and best practices to ensure the safe and secure execution of the PyATS script for adding a VLAN to a trunk interface on Cisco switches. Adhering to this policy will help prevent unauthorized access and modifications, protect sensitive information, and ensure the integrity and availability of network devices.
 
 ## Scope
 This policy applies to all users who have access to the PyATS script and the associated network devices defined in the testbed file.
