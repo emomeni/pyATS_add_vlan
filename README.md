@@ -53,23 +53,18 @@ Before running the script, ensure you have the following:
     Replace the placeholders with your actual network details (IP addresses, usernames, passwords).
 
 2. **Update the test script**:
-   If necessary, update the VLAN ID and the trunk interface name in the script (`test_add_vlan.py`):
+   If necessary, update the VLAN ID and the trunk interface name in the script (`pyats_addvlan.py`):
 
     ```python
     vlan_id = 10
     interface_name = 'GigabitEthernet0/1'
     ```
 
-## Run the Test Script
-    ```python
-python test_add_vlan.py --testbed testbed.yaml
-    ```
-    
 ## Usage
 To run the test script, execute the following command:
 
 ```bash
-python test_add_vlan.py --testbed testbed.yaml
+python pyats_addvlan.py --testbed testbed.yaml
  ```
 
 ## Script Details
