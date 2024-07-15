@@ -16,7 +16,6 @@ class AddVlanToTrunk(aetest.Testcase):
             # Add the VLAN to the trunk interface
             self.device.configure(f'''
                 interface {interface_name}
-                switchport
                 switchport mode trunk
                 switchport trunk allowed vlan add {vlan_id}
             ''')
