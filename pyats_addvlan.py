@@ -38,13 +38,13 @@ class AddVlanToTrunk(aetest.Testcase):
     @aetest.cleanup
     def cleanup(self):
         self.device.disconnect()
-
+        
 if __name__ == '__main__':
     import argparse
     from pyats import topology
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--testbed', dest='testbed', type=topology.loader.load, required=True)
-    args, unknown = parser.parse_known_args()
-    
+    parser.add_argument('--testbed', dest='testbed', type=str, required=True)
+    args = parser.parse_args()
+
     aetest.main(testbed=args.testbed)
