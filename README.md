@@ -101,3 +101,7 @@ This script will:
 
 ## License
 This project is licensed under the MIT License.
+
+## Output
+![pyats-addvlan-output-1](https://github.com/user-attachments/assets/e63884af-ee8a-41e5-9030-e0b870be8728)
+![pyats-addvlan-output-2](https://github.com/user-attachments/assets/846f0933-03a4-4f62-a6b8-2a1c0ee4cd7e)
