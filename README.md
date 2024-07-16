@@ -1,4 +1,7 @@
 # PyATS VLAN Trunk Interface Test
+[![published](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-published.svg)](https://developer.cisco.com/codeexchange/github/repo/emomeni/pyATS_add_vlan)
+
+[![Run in Cisco Cloud IDE](https://static.production.devnetcloud.com/codeexchange/assets/images/devnet-runable-icon.svg)](https://developer.cisco.com/codeexchange/devenv/emomeni/pyATS_add_vlan/)
 
 ## Overview
 This repository contains a PyATS test script to add a VLAN to a trunk interface on a Cisco switch and verify the configuration. The script is designed to automate the process of VLAN configuration on network devices, ensuring that the VLAN is correctly added and operational.
